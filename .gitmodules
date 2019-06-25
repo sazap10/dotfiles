@@ -1,0 +1,6 @@
+[submodule "zsh_custom/plugins/kubetail"]
+	path = zsh_custom/plugins/kubetail
+	url = git@github.com:johanhaleby/kubetail.git
+[submodule "zsh_custom/themes/spaceship-prompt"]
+	path = zsh_custom/themes/spaceship-prompt
+	url = git@github.com:denysdovhan/spaceship-prompt.git
