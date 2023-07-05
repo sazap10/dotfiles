@@ -1,6 +1,8 @@
 alias be="bundle exec"
 alias bi="bundle install"
-alias bootsnag="bundle exec bootsnag"
+#alias bootsnag="bundle exec bootsnag"
+alias b='f() { ( cd /Users/sachin/dev/bugsnag/bugsnag-development && bundle exec bootsnag $@ ) };f'
+alias demo='f() { ( cd /Users/sachin/dev/bugsnag/bugsnag-development && BUGSNAG_DATA_ACCESS_TOKEN="eb35a9a7-fc41-4d00-8239-acfe8dec9b76" bundle exec demogorgon $@ ) };f'
 alias dl="docker logs"
 alias de="docker exec -it"
 alias dp="docker ps"
